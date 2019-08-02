@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>今日热榜</title>
+    <link rel="stylesheet" href="./layui/css/layui.css">
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+        .my-header {
+            background-color: white;
+        }
+        .my-header .title {
+            height: 60px;
+            line-height: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="layui-header my-header">
+    <div class="layui-container">
+        <div class="title">
+            <i class="layui-icon layui-icon-fire" style="font-size: 40px; color: red;"></i>
+            <strong style="font-size: 36px; color: #0C0C0C">今日热榜</strong>
+        </div>
+    </div>
+
+</div>
+
+<div class="layui-container" style="background-color: white; min-height: 80vh; margin-top: 20px">
+    <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+        <ul class="layui-tab-title">
+        </ul>
+        <div class="layui-tab-content"></div>
+    </div>
+</div>
+
+<script src="./layui/layui.js"></script>
+<script>
+    layui.use(['jquery', 'element'], function(){
+        var $ = layui.$; //重点处
+        var element = layui.element;
+        $.getJSON("../result/result.json", "", function(data) {
+            　  //each循环 使用$.each方法遍历返回的数据date
+               var layui_tab_title = $('.layui-tab-title');
+               var layui_tab_content = $('.layui-tab-content');
+               $.each(data, function (index, element) {
+                   var title_html = '';
+                   var content_html = '';
+                   if (index===0){
+                       title_html ='<li class="layui-this" >'+element.hot_name+'</li>';
+                       if(element.content.length>0){
+                           let tr_td = '';
+                           for (var i in element.content){
+                               tr_td += '<tr><td><a href="'+ element.content[i].href + '"target="_blank">'+i+ '.&nbsp;'
+                                   +element.content[i].title+'</a></td></tr>'
+                           }
+                           content_html = '<div class="layui-tab-item layui-show"><table class="layui-table">'+tr_td+
+                               '</table></div>'
+                       }else{
+                            content_html = '<div class="layui-tab-item layui-show"><table class="layui-table">'+
+                                '<tr><td>no data</td><tr'+'</table></div>'
+                       }
+                   }else {
+                         if(element.content.length>0){
+                           let tr_td = '';
+                           for (var i in element.content){
+                               tr_td += '<tr><td><a href="'+ element.content[i].href + '"target="_blank">'+ i+ '.&nbsp;'
+                                   +element.content[i].title+'</a></td></tr>'
+                           }
+                           content_html = '<div class="layui-tab-item"><table class="layui-table">'+tr_td+
+                               '</table></div>'
+                       }else{
+                            content_html = '<div class="layui-tab-item"><table class="layui-table">'+
+                                '<tr><td>no data</td><tr'+'</table></div>'
+                       }
+
+                       title_html = '<li>'+element.hot_name+'</li>'
+                   }
+                   layui_tab_title.append(title_html);
+                   layui_tab_content.append(content_html);
+               })
+        });
+    });
+</script>
+</body>
+</html>
