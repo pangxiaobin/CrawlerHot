@@ -8,3 +8,5 @@ requests==2.22.0
 six==1.12.0
 tzlocal==2.0.0
 urllib3==1.25.3
+uWSGI==2.0.18
+web.py==0.40.dev1
