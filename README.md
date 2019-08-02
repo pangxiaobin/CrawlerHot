@@ -7,6 +7,9 @@
 ├── README.md
 ├── requments.txt  环境依赖包
 ├── result  保存爬取结果的文件夹
+└── web  前端
+    ├── hot.html  显示页面
+    └── layui  依赖
 ├── run.py  运行入口
 └── settings.py  配置文件
 ```
@@ -46,7 +49,13 @@
     ```shell
     python run.py
     ```
+ - 查看前端展示效果
+ - 浏览器打开hot.html
 
+### 新增内容
+- 增加定时爬取任务
+- 增加前端页面显示
+### 效果
 
 
 
