@@ -61,5 +61,5 @@ def run():
 
 
 if __name__ == '__main__':
-    run_crawler()
-    # run()
+    run_crawler()  # 单次爬虫运行
+    run()  # 定时爬虫运行

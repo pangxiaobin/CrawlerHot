@@ -44,7 +44,7 @@
     layui.use(['jquery', 'element'], function(){
         var $ = layui.$; //重点处
         var element = layui.element;
-        $.getJSON("http://0.0.0.0:8080/hot", function(data) {
+        $.getJSON("http://127.0.0.1:8080/hot", function(data) {
                 var data = JSON.parse(data)
             　  //each循环 使用$.each方法遍历返回的数据date
                var layui_tab_title = $('.layui-tab-title');

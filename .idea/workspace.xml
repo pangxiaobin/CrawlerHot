@@ -2,126 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3ef99c3-f2fc-4f29-89a3-3c480e0aadd1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CrawlerHot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CrawlerHot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hot.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hot.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/layui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/layui.mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/code.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/layer/default/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/layui-icon-extend/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/layui-icon-extend/iconfont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/layui-icon-extend/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/layui-icon-extend/iconfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/layui-icon-extend/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/layui-icon-extend/iconfont.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/layui-icon-extend/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/layui-icon-extend/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/layui-icon-extend/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/layui-icon-extend/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/layui-icon-extend/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/layui-icon-extend/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/modules/layui-icon-extend/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/css/modules/layui-icon-extend/iconfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/font/iconfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/font/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/font/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/0.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/10.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/11.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/12.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/13.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/14.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/14.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/15.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/16.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/16.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/17.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/17.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/18.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/18.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/19.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/19.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/20.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/20.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/21.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/22.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/22.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/23.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/23.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/24.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/24.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/25.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/25.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/26.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/26.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/27.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/27.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/28.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/28.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/29.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/29.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/3.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/30.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/30.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/31.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/31.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/32.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/33.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/33.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/34.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/34.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/35.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/36.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/36.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/37.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/37.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/38.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/38.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/39.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/39.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/4.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/40.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/40.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/41.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/41.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/42.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/42.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/43.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/43.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/44.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/44.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/45.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/45.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/46.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/46.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/47.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/47.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/48.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/48.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/49.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/49.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/5.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/50.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/50.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/51.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/51.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/52.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/52.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/53.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/53.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/54.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/54.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/55.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/55.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/56.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/56.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/57.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/57.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/58.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/58.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/59.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/59.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/6.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/60.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/60.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/61.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/61.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/62.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/62.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/63.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/63.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/64.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/64.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/65.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/65.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/66.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/66.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/67.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/67.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/68.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/68.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/69.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/69.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/7.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/70.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/70.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/71.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/71.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/8.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/images/face/9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/images/face/9.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/flow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/laydate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/layedit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/laypage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/rate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/tree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/lay/modules/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/layui.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,43 +26,43 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="ini" value="2" />
-          <entry key="log" value="1" />
+          <entry key="html" value="2" />
+          <entry key="ini" value="3" />
+          <entry key="log" value="2" />
           <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="Ini" value="2" />
-          <entry key="Log" value="1" />
+          <entry key="HTML" value="2" />
+          <entry key="Ini" value="3" />
+          <entry key="Log" value="2" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="124" />
-          <entry key="ini" value="75" />
-          <entry key="py" value="146" />
+          <entry key="html" value="133" />
+          <entry key="ini" value="97" />
+          <entry key="py" value="187" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="124" />
-          <entry key="Ini" value="75" />
-          <entry key="Python" value="146" />
+          <entry key="HTML" value="133" />
+          <entry key="Ini" value="97" />
+          <entry key="Python" value="187" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="421">
+              <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
               <folding>
                 <element signature="e#132#143#0" expanded="true" />
               </folding>
@@ -187,11 +70,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uwsgi.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="17">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uwsgi.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="264">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -211,10 +103,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/web/hot.html" />
-        <option value="$PROJECT_DIR$/uwsgi.ini" />
         <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/html/hot.html" />
+        <option value="$PROJECT_DIR$/uwsgi.ini" />
       </list>
     </option>
   </component>
@@ -242,6 +135,11 @@
               <item name="CrawlerHot" type="b2602c69:ProjectViewProjectNode" />
               <item name="CrawlerHot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CrawlerHot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrawlerHot" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -254,6 +152,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -346,11 +249,11 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.42544988" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.88946015" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32904884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32904884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,6 +264,29 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12604573" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.88946015" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32904884" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="SciView" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -369,25 +295,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/hot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#35#41#0" expanded="true" />
-            <element signature="e#35#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-570">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11">
@@ -398,20 +305,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="421">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
           <folding>
             <element signature="e#132#143#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="264">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/hot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#35#41#0" expanded="true" />
+            <element signature="e#35#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
