@@ -1,5 +1,6 @@
 ### 说明
 我的博客热点展示：https://www.panglb.top/hot/
+前后端分离，后端使用轻量级框架web.py， 前端使用了layui，数据保存为本地json文件。
 ```shell
 ├── crawler.py  # 主要爬虫代码
 ├── helper.py  # 帮助函数
