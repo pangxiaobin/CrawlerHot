@@ -50,6 +50,7 @@
   # 创建虚拟环境  需要安装virtualenv 和virtualenvwrapper
   mkvirtualenv hot
   pip install -r requments.txt
+  # 注释 windows pip install uwsgi 会报错 windows下演示可先在requments.txt 注释掉uwsgi
   ```
 
 - 本地运行效果展示
