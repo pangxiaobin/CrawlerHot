@@ -17,6 +17,7 @@ urls = (
 app = web.application(urls, globals())
 application = app.wsgifunc()
 
+
 class hot:
     def GET(self):
         web.header('content-type','text/json')

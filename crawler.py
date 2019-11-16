@@ -104,8 +104,11 @@ def crawler_dou_ban():
     response_html = get_text(url, options=headers)
     content_list = []
     if response_html:
+
         tree = etree.HTML(response_html.text)
         h3_list = tree.xpath("//div[@class='channel-item']/div[@class='bd']/h3")
+        if h3_list.__len__() <= 0:
+            h3_list = etree.HTML(response_html.content).xpath("//div[@class='channel-item']/div[@class='bd']/h3")
         for h3 in h3_list:
             title = h3.xpath('./a/text()')[0]
             href = h3.xpath('./a/@href')[0]
@@ -150,12 +153,14 @@ def crawler_github():
     content_list = []
     if response_html:
         tree = etree.HTML(response_html.text)
+        if not tree:
+            tree = etree.HTML(response_html.content)
         article_list = tree.xpath("//article[@class='Box-row']")
         for article in article_list:
             title = article.xpath('string(./h1/a)').strip()
             href = 'https://github.com/%s' % article.xpath('./h1/a/@href')[0]
             describe = article.xpath('string(./p)').strip()
-            content_list.append({'title':'%s---%s' % (title, describe), 'href': href})
+            content_list.append({'title': '%s---%s' % (title, describe), 'href': href})
     return {'hot_name': 'GitHub', 'content': content_list}
 
 
