@@ -79,20 +79,26 @@
 
 - 服务器部署uwsgi+nginx 
 
-  - 项目是前后端分离的，后端可以单独就uwsgi起服务，前端用nginx。也可以都用nginx
+  - 项目是前后端分离的，后端可以单独就uwsgi起服务，前端用nginx。
   - uwsgi起http服务
 
   ```uwsgi
   修改uwsgi.ini中的chdir
+  # 这里指定你服务器端开放的端口
+  http=0.0.0.0:8080
   # 配置工程目录 项目所在的绝对路径
   chdir=yourpath/CrawlerHot
   ```
-
   - 起动uwsgi
-
   ```shell
   uwsgi --ini uwsgi.ini
   ```
+  - 修改前端请求的接口
+  ```shell
+  #/html/hot.html
+  # 这里的127.0.0.1 要修改为你服务器的ip
+  http://127.0.0.1:8080/hot =》http://server_ip:8080/hot
+```
 
   - 配置nginx部署前端
 
@@ -100,30 +106,13 @@
   # /etc/nginx/conf.d/default.conf 添加location 配置
   server {
       listen       80;
-      listen [::]:80 ipv6only=on default_server;
-      server_name  localhost;
-  
-      #charset koi8-r;
-      #access_log  /var/log/nginx/host.access.log  main;
-  
-      location / {
-          root   /usr/share/nginx/html;
-          index  index.html index.htm;
-      }
+      # 这里更改为你服务器的ip
+      server_name  your_server_ip;
       
       location /hot {
           # 绝对路径
          alias /youtpath/CrawlerHot/html;
          index hot.html;
-      }
-      
-      #error_page  404              /404.html;
-  
-      # redirect server error pages to the static page /50x.html
-      #
-      error_page   500 502 503 504  /50x.html;
-      location = /50x.html {
-          root   /usr/share/nginx/html;
       }
   }
   ```
@@ -136,8 +125,6 @@
 
     - 效果展示
     ![hot](https://github.com/pangxiaobin/CrawlerHot/raw/master/image/hot.png)
-
-
 
 
 
