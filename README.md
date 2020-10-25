@@ -93,14 +93,15 @@
   ```shell
   uwsgi --ini uwsgi.ini
   ```
+  
   - 修改前端请求的接口
   ```shell
-  #/html/hot.html
-  # 这里的127.0.0.1 要修改为你服务器的ip
-  http://127.0.0.1:8080/hot =》http://server_ip:8080/hot
-```
+      #/html/hot.html
+      # 这里的127.0.0.1 要修改为你服务器的ip
+      http://127.0.0.1:8080/hot =》http://server_ip:8080/hot
+  ```
 
-  - 配置nginx部署前端
+- 配置nginx部署前端
 
   ```nginx
   # /etc/nginx/conf.d/default.conf 添加location 配置
@@ -123,8 +124,10 @@
   nohup python -u run.py &  
   ```
 
-    - 效果展示
-    ![hot](https://github.com/pangxiaobin/CrawlerHot/raw/master/image/hot.png)
+
+   - 效果展示
+   
+   ![hot](https://github.com/pangxiaobin/CrawlerHot/raw/master/image/hot.png)
 
 
 
