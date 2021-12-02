@@ -4,6 +4,7 @@
 # @Author  : Hubery
 # @File    : crawler.py
 # @Software: PyCharm
+import logging
 
 from lxml import etree
 from helper import get_text
@@ -14,17 +15,20 @@ def crawler_wei_bo():
     爬取微博热榜
     :return:
     """
-    url = 'https://s.weibo.com/top/summary?cate=realtimehot'
-    response_html = get_text(url)
+    web_base_url = 'https://s.weibo.com/weibo?q=%23{}%23'
+    m_url = 'https://m.weibo.cn/api/container/getIndex?containerid=106003type%3D25%26t%3D3%26disable_hot%3D1%26filter_type%3Drealtimehot&title=%E5%BE%AE%E5%8D%9A%E7%83%AD%E6%90%9C&extparam=seat%3D1%26pos%3D0_0%26dgr%3D0%26mi_cid%3D100103%26cate%3D10103%26filter_type%3Drealtimehot%26c_type%3D30%26display_time%3D1638445376%26pre_seqid%3D52252862&luicode=10000011&lfid=231583'
+    response_html = get_text(m_url)
     content_list = []
     if response_html:
-        tree = etree.HTML(response_html.text)
-        tr_list = tree.xpath('//table/tbody/tr')[1:]
-        for tr in tr_list:
-            # index = tr.xpath('./td[1]/text()')[0]
-            title = tr.xpath('./td[2]/a/text()')[0]
-            href = 'https://s.weibo.com%s' % tr.xpath('./td[2]/a/@href')[0]
-            content_list.append({'title': title, 'href': href})
+        res_json = response_html.json()
+        try:
+            card_group = res_json.get('data').get('cards')[0].get('card_group')
+            for card in card_group:
+                title = card.get('desc')
+                href = web_base_url.format(title)
+                content_list.append({'title': title, 'href': href})
+        except Exception as e:
+            logging.error('新浪微博 parser error {}'.format(e))
     return {'hot_name': '新浪微博', 'content': content_list}
 
 
